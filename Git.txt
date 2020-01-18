@@ -1,0 +1,45 @@
+username - TharYarLwin
+email- tharyar.lwin6@gmail.com
+password- Tharyarlwin#2002
+
+Step 1: Git download
+Step 2: Git installation
+Step 3: Github account creation
+Step 4: Git repository
+Step 5: A file to upload on github
+Step 6: Git Command line
+
+cd Path- Go to repository
+
+First time (new repository)
+git int
+git add .
+git config global user.email "tharyar.lwin6@gmail.com"
+git config global user.name "TharYarLwin"
+git commit -m "first commit"
+git remote add origin https://github.com/TharYarLwin/Sample.git
+git push -u origin master
+
+(new repository for new project)
+
+git init
+git add.
+git config global user.email "tharyar.lwin6@gmail.com"
+git config global user.name "TharYarLwin"
+git commit -m "first commit"
+git remote add origin https://github.com/TharYarLwin/Sample.git
+git push -u origin master
+
+(old respository for existing project)
+
+git add.
+git commit -m "second commit"
+git push
+
+(existing project to other laptop)
+
+git pull
+
+(other person project to own laptop)
+
+git clone https://github.com/TharYarLwin/Sample.git
